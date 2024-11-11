@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Datang di Server Kami</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+
+        .container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .logo {
+            width: 120px;
+            height: 120px;
+            margin-bottom: 2rem;
+            background-color: #2d3748;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo svg {
+            width: 60px;
+            height: 60px;
+            fill: #fff;
+        }
+
+        h1 {
+            color: #2d3748;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .subtitle {
+            color: #4a5568;
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+            max-width: 600px;
+        }
+
+        .status {
+            background-color: #48bb78;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 9999px;
+            font-weight: 500;
+            margin-bottom: 2rem;
+        }
+
+        .info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 900px;
+            width: 100%;
+        }
+
+        .info-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .info-card h3 {
+            color: #2d3748;
+            margin-bottom: 0.5rem;
+            font-size: 1.25rem;
+        }
+
+        .info-card p {
+            color: #4a5568;
+            line-height: 1.5;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #4a5568;
+            font-size: 0.875rem;
+        }
+
+        @media (max-width: 640px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .subtitle {
+                font-size: 1.125rem;
+            }
+
+            .logo {
+                width: 100px;
+                height: 100px;
+            }
+
+            .logo svg {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+            </svg>
+        </div>
+        
+        <h1>Selamat Datang di Server Kami</h1>
+        <p class="subtitle">Server ini berjalan dengan baik dan siap melayani permintaan Anda.</p>
+        
+        <div class="status">Server Aktif</div>
+
+        <div class="info">
+            <div class="info-card">
+                <h3>Tentang Server</h3>
+                <p>Server ini menggunakan NGINX sebagai web server modern yang handal, cepat, dan aman untuk melayani konten web Anda.</p>
+            </div>
+            
+            <div class="info-card">
+                <h3>Bantuan</h3>
+                <p>Jika Anda memerlukan bantuan atau mengalami masalah, silakan hubungi tim support kami melalui email atau ticketing system.</p>
+            </div>
+            
+            <div class="info-card">
+                <h3>Keamanan</h3>
+                <p>Server ini dilengkapi dengan sistem keamanan terkini dan dipantau 24/7 untuk memastikan layanan yang optimal.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; <script>document.write(new Date().getFullYear())</script> <a href="https://tanet.eu.org">Tulungagung Network</a>. Powered by NGINX.</p>
+    </footer>
+</body>
+</html>
