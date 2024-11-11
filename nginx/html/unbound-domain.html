@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Datang</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1a1a1a, #2a2a2a);
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+            animation: fadeIn 1s ease-in;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #00ff9d;
+            text-shadow: 0 0 10px rgba(0, 255, 157, 0.5);
+        }
+
+        .status {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            color: #00ff9d;
+        }
+
+        .server-info {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .server-info p {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+
+        .links {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .button {
+            background: linear-gradient(45deg, #00ff9d, #00b8ff);
+            color: #1a1a1a;
+            text-decoration: none;
+            padding: 12px 30px;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 255, 157, 0.4);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .links {
+                flex-direction: column;
+            }
+        }
+
+        .pulse {
+            width: 15px;
+            height: 15px;
+            background-color: #00ff9d;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 10px;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(0.95);
+                box-shadow: 0 0 0 0 rgba(0, 255, 157, 0.7);
+            }
+            70% {
+                transform: scale(1);
+                box-shadow: 0 0 0 10px rgba(0, 255, 157, 0);
+            }
+            100% {
+                transform: scale(0.95);
+                box-shadow: 0 0 0 0 rgba(0, 255, 157, 0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Anda Berada di Server Nusantara</h1>
+        <div class="status">
+            <span class="pulse"></span>
+            Server Status: Aktif dan Berjalan
+        </div>
+        <div class="server-info">
+            <p>OS Version: [Versi OS]</p>
+            <p>Server Time: <span id="serverTime"></span></p>
+            <p>Uptime: <span id="uptime">0 days, 0 hours, 0 minutes</span></p>
+        </div>
+        <div class="links">
+            <a href="#" class="button">Contact</a>
+            <a href="#" class="button">Dokumentasi</a>
+            <a href="https://github.com/tulungagung" class="button">GitHub</a>
+        </div>
+    </div>
+
+    <script>
+        // Update server time
+        function updateServerTime() {
+            const timeElement = document.getElementById('serverTime');
+            const now = new Date();
+            timeElement.textContent = now.toLocaleString('id-ID');
+        }
+
+        // Simulate uptime counter
+        function updateUptime() {
+            const uptimeElement = document.getElementById('uptime');
+            let days = 0;
+            let hours = 0;
+            let minutes = 0;
+
+            setInterval(() => {
+                minutes++;
+                if (minutes >= 60) {
+                    hours++;
+                    minutes = 0;
+                }
+                if (hours >= 24) {
+                    days++;
+                    hours = 0;
+                }
+                uptimeElement.textContent = `${days} hari, ${hours} jam, ${minutes} menit`;
+            }, 60000); // Update every minute
+        }
+
+        // Initialize
+        updateServerTime();
+        setInterval(updateServerTime, 1000);
+        updateUptime();
+    </script>
+</body>
+</html>
