@@ -1,5 +1,17 @@
 [
   "free-rotation/hf/CohereLabs/aya-expanse-32b:cohere",
   "free-rotation/hf/CohereLabs/aya-expanse-8b:cohere",
-  "free-rotation/hf/deepseek-ai/DeepSeek-R1-0528:nebius"
+  "free-rotation/hf/CohereLabs/c4ai-command-a-03-2025:cohere",
+  "free-rotation/hf/aaditya/Llama3-OpenBioLLM-70B:nebius",
+  "free-rotation/hf/baidu/ERNIE-4.5-VL-424B-A47B-Base-PT:novita",
+  "free-rotation/hf/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B:novita",
+  "free-rotation/hf/deepseek-ai/DeepSeek-R1-0528:nebius",
+  "free-rotation/hf/google/gemma-3-27b-it:nebius",
+  "free-rotation/hf/meta-llama/Llama-3.3-70B-Instruct:cerebras",
+  "free-rotation/hf/microsoft/phi-4:nebius",
+  "free-rotation/hf/moonshotai/Kimi-K2-Instruct:novita",
+  "free-rotation/hf/openai/gpt-oss-20b:fireworks-ai",
+  "free-rotation/hf/Qwen/Qwen3-235B-A22B:novita",
+  "free-rotation/hf/Qwen/Qwen3-Coder-480B-A35B-Instruct:cerebras",
+  "Free/Openai/gpt-5-mini"
 ]
