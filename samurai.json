@@ -6,6 +6,7 @@
   "free-rotation/hf/baidu/ERNIE-4.5-VL-424B-A47B-Base-PT:novita",
   "free-rotation/hf/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B:novita",
   "free-rotation/hf/deepseek-ai/DeepSeek-R1-0528:nebius",
+  "free-rotation/hf/deepseek-ai/DeepSeek-Prover-V2-671B:novita",
   "free-rotation/hf/google/gemma-3-27b-it:nebius",
   "free-rotation/hf/meta-llama/Llama-3.3-70B-Instruct:cerebras",
   "free-rotation/hf/meta-llama/Llama-4-Maverick-17B-128E-Instruct:cerebras",  
