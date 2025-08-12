@@ -4,6 +4,7 @@
   "free-rotation/hf/CohereLabs/c4ai-command-a-03-2025:cohere",
   "free-rotation/hf/aaditya/Llama3-OpenBioLLM-70B:nebius",
   "free-rotation/hf/baidu/ERNIE-4.5-VL-424B-A47B-Base-PT:novita",
+  "free-rotation/hf/deepseek-ai/DeepSeek-R1-Distill-Llama-70B:cerebras",
   "free-rotation/hf/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B:novita",
   "free-rotation/hf/deepseek-ai/DeepSeek-R1-0528:nebius",
   "free-rotation/hf/deepseek-ai/DeepSeek-Prover-V2-671B:novita",
