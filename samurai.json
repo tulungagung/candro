@@ -16,6 +16,7 @@
   "free-rotation/hf/microsoft/phi-4:nebius",
   "free-rotation/hf/moonshotai/Kimi-K2-Instruct:novita",
   "free-rotation/hf/openai/gpt-oss-120b:cerebras",
+  "free-rotation/hf/Qwen/Qwen2.5-VL-72B-Instruct:nebius",
   "free-rotation/hf/Qwen/Qwen3-235B-A22B:novita",
   "free-rotation/hf/Qwen/Qwen3-Coder-480B-A35B-Instruct:cerebras",
   "free-rotation/hf/Qwen/QwQ-32B:nebius",
