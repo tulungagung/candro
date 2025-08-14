@@ -1,25 +1,131 @@
-[
-  "free-rotation/hf/CohereLabs/aya-expanse-32b:cohere",
-  "free-rotation/hf/CohereLabs/aya-expanse-8b:cohere",
-  "free-rotation/hf/CohereLabs/c4ai-command-a-03-2025:cohere",
-  "free-rotation/hf/aaditya/Llama3-OpenBioLLM-70B:nebius",
-  "free-rotation/hf/baidu/ERNIE-4.5-VL-424B-A47B-Base-PT:novita",
-  "free-rotation/hf/dphn/dolphin-2.9.2-mixtral-8x22b:novita",
-  "free-rotation/hf/deepseek-ai/DeepSeek-R1-Distill-Llama-70B:cerebras",
-  "free-rotation/hf/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B:novita",
-  "free-rotation/hf/deepseek-ai/DeepSeek-R1-0528:nebius",
-  "free-rotation/hf/deepseek-ai/DeepSeek-Prover-V2-671B:novita",
-  "free-rotation/hf/google/gemma-3-27b-it:nebius",
-  "free-rotation/hf/meta-llama/Llama-3.3-70B-Instruct:cerebras",
-  "free-rotation/hf/meta-llama/Llama-4-Maverick-17B-128E-Instruct:cerebras",  
-  "free-rotation/hf/meta-llama/Meta-Llama-3-8B-Instruct:featherless-ai",
-  "free-rotation/hf/microsoft/phi-4:nebius",
-  "free-rotation/hf/moonshotai/Kimi-K2-Instruct:novita",
-  "free-rotation/hf/openai/gpt-oss-120b:cerebras",
-  "free-rotation/hf/Qwen/Qwen2.5-VL-72B-Instruct:nebius",
-  "free-rotation/hf/Qwen/Qwen3-235B-A22B:novita",
-  "free-rotation/hf/Qwen/Qwen3-Coder-480B-A35B-Instruct:cerebras",
-  "free-rotation/hf/Qwen/QwQ-32B:nebius",
-  "Free/Openai/gpt-5-mini",
-  "Free/Openai/gpt-5-nano"
-]
+{
+  "object": "list",
+  "data": [
+    {
+      "id": "free-rotation/hf/CohereLabs/aya-expanse-32b:cohere",
+      "name": "Cohere: Aya-Expanse-32b",
+      "hugging_face_id": "CohereLabs/aya-expanse-32b",
+      "owned_by": ""
+    },
+    {
+      "id": "free-rotation/hf/CohereLabs/aya-expanse-8b:cohere",
+      "name": "Cohere: Aya-Expanse-8b",
+      "hugging_face_id": "CohereLabs/aya-expanse-8b",
+      "owned_by": ""
+    },
+    {
+      "id": "free-rotation/hf/CohereLabs/c4ai-command-a-03-2025:cohere",
+      "name": "Cohere: C4ai-Command-A-03-2025",
+      "hugging_face_id": "CohereLabs/c4ai-command-a-03-2025",
+      "owned_by": ""
+    },
+    {
+      "id": "free-rotation/hf/aaditya/Llama3-OpenBioLLM-70B:nebius",
+      "name": "Nebius: Llama3-OpenBioLLM-70B",
+      "hugging_face_id": "aaditya/Llama3-OpenBioLLM-70B",
+      "owned_by": ""
+    },
+    {
+      "id": "free-rotation/hf/baidu/ERNIE-4.5-VL-424B-A47B-Base-PT:novita",
+      "name": "Novita: ERNIE-4.5-VL-424B-A47B-Base-PT",
+      "hugging_face_id": "baidu/ERNIE-4.5-VL-424B-A47B-Base-PT",
+      "owned_by": ""
+    },
+    {
+      "id": "free-rotation/hf/dphn/dolphin-2.9.2-mixtral-8x22b:novita",
+      "name": "Novita: Dolphin-2.9.2-Mixtral-8x22b",
+      "hugging_face_id": "dphn/dolphin-2.9.2-mixtral-8x22b",
+      "owned_by": ""
+    },
+    {
+      "id": "free-rotation/hf/deepseek-ai/DeepSeek-R1-Distill-Llama-70B:cerebras",
+      "name": "Cerebras: DeepSeek-R1-Distill-Llama-70B",
+      "hugging_face_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "owned_by": ""
+    },
+    {
+      "id": "free-rotation/hf/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B:novita",
+      "name": "Novita: DeepSeek-R1-0528-Qwen3-8B",
+      "hugging_face_id": "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
+      "owned_by": ""
+    },
+    {
+      "id": "free-rotation/hf/deepseek-ai/DeepSeek-R1-0528:nebius",
+      "name": "Nebius: DeepSeek-R1-0528",
+      "hugging_face_id": "deepseek-ai/DeepSeek-R1-0528",
+      "owned_by": ""
+    },
+    {
+      "id": "free-rotation/hf/deepseek-ai/DeepSeek-Prover-V2-671B:novita",
+      "name": "Novita: DeepSeek-Prover-V2-671B",
+      "hugging_face_id": "deepseek-ai/DeepSeek-Prover-V2-671B",
+      "owned_by": ""
+    },
+    {
+      "id": "free-rotation/hf/google/gemma-3-27b-it:nebius",
+      "name": "Nebius: Gemma-3-27b-It",
+      "hugging_face_id": "google/gemma-3-27b-it",
+      "owned_by": ""
+    },
+    {
+      "id": "free-rotation/hf/meta-llama/Llama-3.3-70B-Instruct:cerebras",
+      "name": "Cerebras: Llama-3.3-70B-Instruct",
+      "hugging_face_id": "meta-llama/Llama-3.3-70B-Instruct",
+      "owned_by": ""
+    },
+    {
+      "id": "free-rotation/hf/meta-llama/Llama-4-Maverick-17B-128E-Instruct:cerebras",
+      "name": "Cerebras: Llama-4-Maverick-17B-128E-Instruct",
+      "hugging_face_id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct",
+      "owned_by": ""
+    },
+    {
+      "id": "free-rotation/hf/meta-llama/Meta-Llama-3-8B-Instruct:featherless-ai",
+      "name": "Featherless-Ai: Meta-Llama-3-8B-Instruct",
+      "hugging_face_id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "owned_by": ""
+    },
+    {
+      "id": "free-rotation/hf/microsoft/phi-4:nebius",
+      "name": "Nebius: Phi-4",
+      "hugging_face_id": "microsoft/phi-4",
+      "owned_by": ""
+    },
+    {
+      "id": "free-rotation/hf/moonshotai/Kimi-K2-Instruct:novita",
+      "name": "Novita: Kimi-K2-Instruct",
+      "hugging_face_id": "moonshotai/Kimi-K2-Instruct",
+      "owned_by": ""
+    },
+    {
+      "id": "free-rotation/hf/openai/gpt-oss-120b:cerebras",
+      "name": "Cerebras: Gpt-Oss-120b",
+      "hugging_face_id": "openai/gpt-oss-120b",
+      "owned_by": ""
+    },
+    {
+      "id": "free-rotation/hf/Qwen/Qwen2.5-VL-72B-Instruct:nebius",
+      "name": "Nebius: Qwen2.5-VL-72B-Instruct",
+      "hugging_face_id": "Qwen/Qwen2.5-VL-72B-Instruct",
+      "owned_by": ""
+    },
+    {
+      "id": "free-rotation/hf/Qwen/Qwen3-235B-A22B:novita",
+      "name": "Novita: Qwen3-235B-A22B",
+      "hugging_face_id": "Qwen/Qwen3-235B-A22B",
+      "owned_by": ""
+    },
+    {
+      "id": "free-rotation/hf/Qwen/Qwen3-Coder-480B-A35B-Instruct:cerebras",
+      "name": "Cerebras: Qwen3-Coder-480B-A35B-Instruct",
+      "hugging_face_id": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+      "owned_by": ""
+    },
+    {
+      "id": "free-rotation/hf/Qwen/QwQ-32B:nebius",
+      "name": "Nebius: QwQ-32B",
+      "hugging_face_id": "Qwen/QwQ-32B",
+      "owned_by": ""
+    }
+  ]
+}
